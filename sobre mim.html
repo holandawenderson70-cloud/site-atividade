@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="./css/tema.css">
+
+    <style>
+        body {
+            background-color: gray;
+            color: white;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* MENU */
+        #MENU {
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            background-color: #222;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        #MENU .logo {
+            margin-right: auto;
+            color: white;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        #MENU li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        #MENU li a:hover {
+            color: rgb(0, 174, 255);
+        }
+
+        .active {
+            color: red !important;
+        }
+
+        /* TÍTULO */
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 3rem;
+        }
+
+        /* CONTAINER PRINCIPAL */
+        .sobre-container {
+            display: flex;
+            justify-content: center;
+            gap: 120px;
+            margin-top: 80px;
+        }
+
+        .coluna {
+            width: 350px;
+        }
+
+        .coluna h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .coluna p,
+        strong {
+            font-size: 1.2rem;
+        }
+
+        /* BOTÕES */
+        .botoes {
+            margin-top: 20px;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 20px;
+            margin-right: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .botao:hover {
+            background-color: rgb(0, 174, 255);
+            border-color: rgb(0, 174, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <ul id="MENU">
+        <li class="logo">Wenderson</li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Projeto.html">Projetos</a></li>
+    </ul>
+
+    <h1>Sobre mim</h1>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="sobre-container">
+
+        <!-- COLUNA ESQUERDA -->
+        <div class="coluna">
+            <h2>Wenderson</h2>
+            <p>
+                Um resumo sobre mim<br><br>
+                Eu sou o Wenderson, sou de Manaus, Amazonas, e moro aqui em Joinville há 4 anos. Estudo no Paulo
+                Medeiros e gosto de uma garota chamada Laura.<br>
+
+            </p>
+        </div>
+
+        <!-- COLUNA DIREITA -->
+        <div class="coluna">
+            <h2>contatos</h2>
+            <p><strong>Email:</strong> holandawenderson70@gmail.com@email.com</p>
+
+            <div class="botoes">
+                <a class="botao" href="https://github.com/holandawenderson70-cloud">Github</a>
+                <a class="botao" href="https://www.linkedin.com/feed/">LinkedIn</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
